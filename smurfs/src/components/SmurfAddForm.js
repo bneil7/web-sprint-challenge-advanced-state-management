@@ -19,7 +19,7 @@ const SmurfAddForm = (props) => {
     }
 
     return (
-        <>
+        <div className="form">
         <form onSubmit={(e) => addSmurf(e)}>
             <input
                 name='name'
@@ -47,7 +47,7 @@ const SmurfAddForm = (props) => {
             <br/>
             <button type='submit'>ADD</button>
         </form>
-        </>
+        </div>
     )
 }
 

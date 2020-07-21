@@ -11,7 +11,7 @@ const SmurfList = (props) => {
     }, []);
 
     return (
-        <div>
+        <div className="list">
             {props.isLoading && <h4>LOADING SMURF...</h4>}
             {props.error && (
                 <p className="error">SMURF NOT FOUND!{props.error}</p>

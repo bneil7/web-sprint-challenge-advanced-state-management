@@ -1,3 +1,25 @@
 .App {
   text-align: center;
 }
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  color: red;
+}
+
+.form {
+  display: flex;
+  border: 1px solid hotpink;
+  justify-content: center;
+}
+input {
+  display: flex;
+  
+}
+
+.card {
+  display: flex;
+  border: 1px solid lime;
+}
